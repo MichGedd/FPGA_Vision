@@ -1,0 +1,9 @@
+synthesis/db/
+synthesis/incremental_db/
+synthesis/simulation/
+synthesis/timing/
+synthesis/testbench/
+synthesis/*_sim/
+synthesis/output_files/
+
+hdl/**/*.v.bak
