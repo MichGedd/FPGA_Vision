@@ -7,3 +7,7 @@ synthesis/*_sim/
 synthesis/output_files/
 
 hdl/**/*.v.bak
+
+verification/venv/
+verification/.idea
+
