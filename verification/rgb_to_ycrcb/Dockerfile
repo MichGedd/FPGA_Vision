@@ -18,8 +18,8 @@ RUN pip3 install cocotb pytest
 
 RUN mkdir verify
 COPY hdl verify/
-COPY verification/arithmetic/reducer_4_to_2/Makefile verify/
-COPY verification/arithmetic/reducer_4_to_2/reducer_4_to_2_tb.py verify/
+COPY verification/rgb_to_ycrcb/Makefile verify/
+COPY verification/rgb_to_ycrcb/rgb_to_ycrcb_tb.py verify/
 WORKDIR verify
 CMD ["make", "SIM=icarus"]
 
