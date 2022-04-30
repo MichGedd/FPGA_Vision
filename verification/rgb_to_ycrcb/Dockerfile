@@ -7,7 +7,8 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y build-essential \
     bison \
     flex \
     gperf \
-    autoconf
+    autoconf \
+    python3-opencv
 
 RUN git clone https://github.com/steveicarus/iverilog.git && cd iverilog && git checkout v11_0 && \
     sh autoconf.sh && ./configure && make && make install
